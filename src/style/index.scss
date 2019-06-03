@@ -1,7 +1,12 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
 body {
-  background: #bdbdbd;
+  background: rgb(255, 255, 255);
+  font-size: 20px;
+  font-family: Helvetica, sans-serif;
+  margin: 0px;
+  height: 100%;
+  color: rgb(75, 75, 75);
 }
 
 .card {
