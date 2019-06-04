@@ -7,11 +7,12 @@ import "../style/index.scss";
 
 window.onload = function() {
   document.getElementById("the-excuse").innerHTML = generateExcuse();
-  console.log("Hello Rigo from the console!");
+  console.log("Hello");
 };
 
 let generateExcuse = function() {
   let who = ["The neighbors dog", "R2-D2", "My Autobot", "My pet llama"];
+
   let what = [
     "went number 2",
     "entered The Matrix",
